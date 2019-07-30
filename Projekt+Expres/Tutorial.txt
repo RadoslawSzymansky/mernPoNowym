@@ -1,0 +1,14 @@
+
+------------ EXPRESSS --------------
+
+1. Gdy juz pobrany globalnie generatr: 
+2. express --view=pug .   - jak w foldrze w ktorym jestemy chcemy ten projket
+3. npm install
+4. set debug z komendy ktore pokaze w terminalu
+5. Tu juz jest ustawiony server
+6. dodanie skryptu nodemon .\bin\www
+7. Dla zwykklych apek jak nop budzet wystarcza nam endo=ointy bo express nie bedzie odpowiezialny za widok. Wtedy robimy --view=nowvieww
+8. Tworzenie routingow routes\ ----- index itp
+'
+
+Modele - schematy danych. 

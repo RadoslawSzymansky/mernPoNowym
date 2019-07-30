@@ -1,0 +1,17 @@
+extends layout
+//- extend to pobranie calego layoutu i napidsze block content - nazwa przpadkowa ale tu i tu ta sama/// ponizej:
+//- /// to sie wywola bo w indes js w routes wysowla to na req lub res? ?????
+
+block content
+  h1= title
+  form(method='get')
+    input(type='text' name='search' value=search)
+    input(type='submit' value='szukaj')
+  p Welcome to #{title}
+
+  each item in data
+    article 
+      h1(class='title')=item.title
+      p=item.created
+      p=item.description
+//- w p jest w #{} bo to string i jak w JSX

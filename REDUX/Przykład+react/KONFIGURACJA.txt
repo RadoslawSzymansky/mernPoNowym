@@ -1,0 +1,8 @@
+1. Install reacta za pomoca create-react-app
+2. Tworzymy strukture plikow, actions do akcji, reduders, components 
+3. Instalacja redux i react-redux (dla np providera)
+4. Providerem  otaczamy cala aplikacje 
+5. Tworzymy store i laczymy go z providerem,
+6. Do stora wrzucamy reducers stworzony z combineReducers
+7. Łaczymy to co trzeba , tutaj np song list z reduxem
+8. Wykorzytujemy mapStateToProps
